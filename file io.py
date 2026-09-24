@@ -40,11 +40,12 @@
 
 # agar mujhe append krna hai file me to mai use kruga 'a'
 
-f = open('my file2.txt' , 'a')
-text = f.write("mera name hai baagad billaaa aur me naachta hu khullam khulla")
-f.close()
+# f = open('my file2.txt' , 'a')
+# text = f.write("mera name hai baagad billaaa aur me naachta hu khullam khulla")
+# f.close()
 
-
+with open("my file2.txt" , 'a'):
+    f.write("hey my name is himanshu")
 
 
 
