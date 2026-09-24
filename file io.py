@@ -51,11 +51,16 @@
 
 
 f = open('intro.txt' , 'w')
-test = f.write("my name is himanshu")
+test = f.write("my name is himanshu\n")
 f.close()
 
 f = open('intro.txt' , 'a')
 test = f.write("i am learning python")
+
+
+f = open('intro.txt' , 'r')
+test = f.read()
+print(test)
 
 
 
