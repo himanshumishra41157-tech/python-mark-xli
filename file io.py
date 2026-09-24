@@ -28,5 +28,12 @@ with open('my file.txt' ,  'a'):
 
 
 
+#agar hamne binary file read krni ho to ham rb use kreege comma ke baad
+
+
+
+
+
+
 
 
