@@ -34,9 +34,9 @@
 
 # agar hame kisi file me naye text rewrite krne ho to ham use krege
 
-f = open("my file2.txt" , 'w')
-text = f.write("mera name haidon or mai hu nayab rakhwala madhyapradesh ka")
-f.close()
+# f = open("my file2.txt" , 'w')
+# text = f.write("mera name haidon or mai hu nayab rakhwala madhyapradesh ka")
+# f.close()
 
 # agar mujhe append krna hai file me to mai use kruga 'a'
 
