@@ -38,6 +38,11 @@ f = open("my file2.txt" , 'w')
 text = f.write("mera name haidon or mai hu nayab rakhwala madhyapradesh ka")
 f.close()
 
+# agar mujhe append krna hai file me to mai use kruga 'a'
+
+f = open('my file2.txt' , 'a')
+text = f.write("mera name hai baagad billaaa aur me naachta hu khullam khulla")
+f.close()
 
 
 
