@@ -54,8 +54,8 @@
 # test = f.write("my name is himanshu\n")
 # f.close()
 a  = input("enter your string")
-f = open('intro.txt' , 'a')
-test = f.write("i am learning python")
+f = open('intro.txt' ,'a')
+test = a.write("i am learning python")
 
 
 
