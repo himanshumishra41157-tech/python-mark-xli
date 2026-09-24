@@ -67,3 +67,35 @@ test = f.write(a)
 
 
 
+
+# Problem Statement 2: Daily Learning Log
+
+# Python program likho jo learning.txt file me tumhari aaj ki learning save kare.
+
+# User se aaj seekha hua topic input lo aur file me likho.
+# User se ek aur topic input lo aur use file me nayi line par add karo. Pehla topic delete nahi hona chahiye.
+# File ka poora content read karke print karo.
+
+# Example input:
+
+# First topic: File handling
+# Second topic: Append mode
+
+# Expected output:
+
+# File handling
+# Append mode
+
+
+
+
+
+
+a  = input("enter your string:    ")
+
+f = open('intro.txt' ,'a')
+
+test = f.write(a)
+
+#kaise kaam aayega ye Bhai, real project me file I/O ka kaam data ko program band hone ke baad bhi save rakhna hai. 
+# Abhi tumhara f.write(a) exactly wahi kar raha hai: user ka input intro.txt me save ho jaata hai. Program dobara chalaoge, to purana text file me milega.
