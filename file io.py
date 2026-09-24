@@ -55,7 +55,7 @@
 # f.close()
 a  = input("enter your string:    ")
 f = open('intro.txt' ,'a')
-test = a.write("i am learning python")
+test = f.write(a)
 
 
 
