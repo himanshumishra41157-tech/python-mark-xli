@@ -44,7 +44,7 @@
 # text = f.write("mera name hai baagad billaaa aur me naachta hu khullam khulla")
 # f.close()
 
-with open('my file2.txt' , 'a'): as f:
+with open('my file2.txt' , 'a') as f:
     f.write("hey my name is himanshu")
 
 
