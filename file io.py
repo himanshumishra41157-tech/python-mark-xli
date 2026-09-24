@@ -53,7 +53,7 @@
 # f = open('intro.txt' , 'w')
 # test = f.write("my name is himanshu\n")
 # f.close()
-a  = input("enter your string")
+a  = input("enter your string:    ")
 f = open('intro.txt' ,'a')
 test = a.write("i am learning python")
 
