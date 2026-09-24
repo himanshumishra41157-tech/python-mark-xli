@@ -54,7 +54,8 @@ f = open('intro.txt' , 'w')
 test = f.write("my name is himanshu")
 f.close()
 
-f = open()
+f = open('intro.txt' , 'a')
+test = f.write("i am learning python")
 
 
 
