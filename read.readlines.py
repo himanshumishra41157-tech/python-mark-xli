@@ -13,7 +13,7 @@
 
 f = open('intro1.txt' , 'r')
 while True:
-    lines = f.readlines()
-    if not lines:
-     print(lines)
-    break
+    line = f.readlines()
+    if not line:
+        break
+    print(line)
