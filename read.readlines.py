@@ -33,13 +33,15 @@ f = open('marks.txt', 'r')
 i = 0
 while True:
     i = i + 1
+    if not line:
+            break
+    
     line = f.readline()
-    m1 = f.split(",")[0]
-    m2 = f.split(",")[1]
-    m3 = f.split(",")[2]
+    m1 = line.split(",")[0]
+    m2 = line.split(",")[1]
+    m3 = line.split(",")[2]
     print("marks of student {i} is in m1 :{m1}")
 
-    if not line:
-        break
+
 
     print(line, type(line))
