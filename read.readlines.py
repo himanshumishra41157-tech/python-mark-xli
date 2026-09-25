@@ -29,10 +29,14 @@
 
 
 
-f = open('my file.txt', 'r')
+f = open('marks.txt', 'r')
 
 while True:
     line = f.readline()
+    m1 = f.split(",")[0]
+    m2 = f.split(",")[1]
+    m3 = f.split(",")[2]
+    print("marks of student is in m1 {m1}")
 
     if not line:
         break
