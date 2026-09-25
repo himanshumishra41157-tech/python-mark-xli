@@ -3,6 +3,7 @@
 f = open('intro1.txt' ,  'r')
 while True:
     lines = f.readlines()
+    print(lines)
     if not lines:
         
        print(lines, type(lines))
