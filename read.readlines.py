@@ -39,6 +39,6 @@ while True:
     m1 = line.split(",")[0]
     m2 = line.split(",")[1]
     m3 = line.split(",")[2]
-    print("marks of student {i} is in m1 :{m1}")
+    print("marks of student {i} is in m1 :{m1}" , m1)
 
 
