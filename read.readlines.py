@@ -91,9 +91,23 @@
 
 
 
-students_name = input("enter the all student name :")
+# students_name = input("enter the all student name :")
 
-f = open("student.txt" ,  'w')
-f.writelines(students_name)
+# f = open("student.txt" ,  'w')
+# f.writelines(students_name)
+# f.close()
+
+
+
+
+# # Real-world example 2 — Logs save karna
+
+# Suppose tumhara Python program kuch activities track kar raha hai:
+
+
+logs = input(["log in/n , file , opened / n"])
+
+f = open("logs.txt" , 'w')
+f.writelines(logs)
 f.close()
 
