@@ -5,4 +5,4 @@ while True:
     lines = f.readlines()
     if not lines:
         
-    print(lines, type(lines))
+       print(lines, type(lines))
