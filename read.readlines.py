@@ -16,5 +16,4 @@ while True:
     lines = f.readlines
     if not lines:
      print(lines)
-        break
-        print(lines)
+    break
