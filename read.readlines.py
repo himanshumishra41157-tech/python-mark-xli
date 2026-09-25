@@ -91,7 +91,7 @@
 
 
 
-students_name = input["enter the all student name :"]
+students_name = input("enter the all student name :")
 
 f = open("student.txt" ,  'w')
 f.writelines(students_name)
