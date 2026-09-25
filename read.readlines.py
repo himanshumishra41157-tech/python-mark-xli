@@ -1,6 +1,6 @@
 #so today  we are discussing about the read and readlines.py
 
-f = open('intro.txt' ,  'r')
+f = open('into.txt' ,  'r')
 while True:
     lines = f.readlines()
     if not lines:
