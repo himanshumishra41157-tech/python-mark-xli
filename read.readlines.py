@@ -33,7 +33,6 @@ f = open('marks.txt', 'r')
 i = 0
 while True:
     i = i + 1
-     
     line = f.readline()
     if not line:
         break
