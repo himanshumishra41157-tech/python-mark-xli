@@ -11,9 +11,16 @@
 
 
 
-f = open('my file.txt' , 'r')
-while True:
-    line = f.readline()
-    if not line:
-     print(line, type(line))
-     break
+# f = open('my file.txt' , 'r')
+# while True:
+#     line = f.readline()
+#     if not line:
+#      print(line, type(line))
+#      break
+
+
+    
+    
+with open('my file.txt', 'r') as f:
+    for line in f:
+        print(line, type(line))
