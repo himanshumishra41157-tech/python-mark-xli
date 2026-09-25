@@ -105,7 +105,7 @@
 # Suppose tumhara Python program kuch activities track kar raha hai:
 
 
-logs = input(["log in/n , file , opened / n"])
+logs = input(["log in/n , file , opened / n  enter the name + given option"])
 
 f = open("logs.txt" , 'w')
 f.writelines(logs)
