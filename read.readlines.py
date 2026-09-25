@@ -70,5 +70,5 @@ while True:
     m3 = line.split(",")[2]
 
     print(f"marks of student {i} is in m1 : {m1}")
-
+print(line)
 
