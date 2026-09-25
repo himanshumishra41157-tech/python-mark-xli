@@ -11,7 +11,7 @@
 
 
 
-f = open("intro1.txt" , 'r')
+f = open('intro1.txt' , 'r')
 while True:
     lines = f.readlines
     if not lines:
