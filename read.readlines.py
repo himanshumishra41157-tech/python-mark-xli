@@ -13,7 +13,7 @@
 
 f = open('my file.txt' , 'r')
 while True:
-    line = f.readlines()
+    line = f.readline()
     if not line:
         break
     print(line)
