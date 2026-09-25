@@ -4,5 +4,5 @@ f = open('intro1.txt' ,  'r')
 while True:
     lines = f.readlines()
     if not lines:
-        break
-    print(lines)
+        
+    print(lines, type(lines))
