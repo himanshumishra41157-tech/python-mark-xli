@@ -21,6 +21,20 @@
 
     
     
-with open('my file.txt', 'r') as f:
-    for line in f:
-        print(line, type(line))
+# with open('my file.txt', 'r') as f:
+#     for line in f:
+#         print(line, type(line))
+
+
+
+
+
+f = open('my file.txt', 'r')
+
+while True:
+    line = f.readline()
+
+    if not line:
+        break
+
+    print(line, type(line))
