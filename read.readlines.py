@@ -6,3 +6,4 @@ while True:
     if not lines:
         
        print(lines, type(lines))
+       break
