@@ -77,9 +77,23 @@
 
 
 
-#writelines method
-f = open('new file1.txt' , 'w')
-lines = [ 'line 1\n' , 'line 2\n' ,  'line 3\n']
-f.writelines(lines)
+# #writelines method
+# f = open('new file1.txt' , 'w')
+# lines = [ 'line 1\n' , 'line 2\n' ,  'line 3\n']
+# f.writelines(lines)
+# f.close()
+
+
+
+# Real-world example 1 — Student data save karna
+
+# Maan le tumhara program students ke names collect karta hai:
+
+
+
+students_name = input["enter the all student name :"]
+
+f = open("student.txt" ,  'w')
+f.writelines(students_name)
 f.close()
 
