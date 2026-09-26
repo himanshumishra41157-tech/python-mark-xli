@@ -8,4 +8,4 @@ with open("jara.txt" , 'r') as f :
 
     data = f.read(5)
 
-    print(data)
+print(data)
