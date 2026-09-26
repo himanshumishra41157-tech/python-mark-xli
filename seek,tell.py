@@ -4,7 +4,7 @@
 with open("jara.txt" , 'r') as f :
     print(type(f))
     f.seek(10)
-
+#f. tell ye batata hai ki is time hamne kitne pe word skip kiye hai
     print(f.tell())
     data = f.read(5)
 
