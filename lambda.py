@@ -23,4 +23,5 @@ def apple(fx,value):
 print(double(5))
 print(cube(5))
 print(avg(3,5,10))
-print(apple(cube,2))
+
+print(apple(lambda x : x*2,2))
