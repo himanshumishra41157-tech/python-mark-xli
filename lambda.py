@@ -55,3 +55,19 @@ print(square(4))
 
 cube = lambda x : x**3
 print(cube(4))
+
+
+
+
+
+
+# Bhai, ye real-world style practice question kar:
+# Ek shop mein products aur unki prices hain:
+# sorted() aur lambda use karke products ko price ke hisaab se saste se mehange order mein print karo.
+# Hint: Har product ek tuple hai. Usmein price product[1] par hai.
+
+products = [("Shoes", 1200), ("Bag", 800), ("Watch", 1500)]
+
+
+new_price = lambda products.sorted()
+print(new_price)
