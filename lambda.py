@@ -47,3 +47,11 @@ print(students)
 
 square = lambda x: x**2
 print(square(4))
+
+
+
+# Lambda se number ko cube karke calculate mein bhejo
+
+
+cube = lambda x : x***3
+print(cube(4))
