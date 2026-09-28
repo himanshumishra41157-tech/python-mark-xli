@@ -70,4 +70,4 @@ products = [("Shoes", 1200), ("Bag", 800), ("Watch", 1500)]
 
 
 new_price = products.sort(key = lambda product : product[1])
-print(new_price)
+print(products)
