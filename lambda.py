@@ -69,5 +69,5 @@ print(cube(4))
 products = [("Shoes", 1200), ("Bag", 800), ("Watch", 1500)]
 
 
-new_price = lambda products.sorted()
+new_price = lambda : products.sorted()
 print(new_price)
