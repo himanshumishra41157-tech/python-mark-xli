@@ -4,7 +4,11 @@
 
 # lambda function is just like a single line expression used ton write a program
 
-def double(x):
-    return x*2
+# def double(x):
+#     return x*2
 
-print(double((5)))
+# print(double((5)))
+
+
+double = lambda x : x*2
+print(double(5))
