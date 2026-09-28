@@ -10,3 +10,17 @@ l = [1,2,3,4,5,6]
 newl = list(map(cube, l))
 print(newl)
 #map function har element par value lagata hai
+
+
+
+
+
+
+
+
+
+
+
+
+
+def filter_function(a):
