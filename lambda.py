@@ -4,3 +4,7 @@
 
 # lambda function is just like a single line expression used ton write a program
 
+def double(x):
+    return x*2
+
+double(5)
