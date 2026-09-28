@@ -53,5 +53,5 @@ print(square(4))
     # Lambda se number ko cube karke calculate mein bhejo
 
 
-    cube = lambda x : x**3
-    print(cube(4))
+cube = lambda x : x**3
+print(cube(4))
