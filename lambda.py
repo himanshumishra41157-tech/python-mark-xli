@@ -45,5 +45,5 @@ print(students)
 
 # Lambda se number ko square karke calculate mein bhejo.
 
-square = lambda x: x*2
+square = lambda x: x**2
 print(square(4))
