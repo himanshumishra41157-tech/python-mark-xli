@@ -23,10 +23,10 @@
 
 
 
-def filter_function(a):
-    return a>4
-newnewl  = list(filter((filter_function,l)))
-print(newnewl)
+# def filter_function(a):
+#     return a>4
+# newnewl  = list(filter((filter_function,l)))
+# print(newnewl)
 
 
 
