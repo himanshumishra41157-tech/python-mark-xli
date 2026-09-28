@@ -24,3 +24,5 @@ print(newl)
 
 
 def filter_function(a):
+    return a>4
+newnewl  = filter(filter_function)
