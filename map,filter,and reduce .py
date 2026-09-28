@@ -50,3 +50,6 @@ sum = reduce(mysum,numbers)
 
 
 print(sum)
+
+
+#reduce value ko aage badha ke function me rkhne ka kaam krta h
