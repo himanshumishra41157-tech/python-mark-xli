@@ -38,3 +38,13 @@ students = [("Aman", 75), ("Riya", 92), ("Himanshu", 81)]
 students.sort(key=lambda student: student[1])
 
 print(students)
+
+
+# @lambda function se related questions ---------------------------
+
+
+# Lambda se number ko square karke calculate mein bhejo.
+
+
+square = lambda (x): x*2
+print(square(4,))
