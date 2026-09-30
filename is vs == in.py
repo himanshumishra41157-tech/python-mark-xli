@@ -38,7 +38,15 @@
 
 
 #in case of tupple
-a = (1,2,3,4,5)
-b = (1,2,3,4,5)
+# a = (1,2,3,4,5)
+# b = (1,2,3,4,5)
+# print(a is b)
+# print(a==b)   
+# output = true cuz tuple immutable hota hai
+
+
+a = None
+b = None
+
 print(a is b)
-print(a==b)   
+print(a == b)
