@@ -53,3 +53,8 @@ print(sum)
 
 
 #reduce value ko aage badha ke function me rkhne ka kaam krta h
+
+
+
+
+#SO WELL THIS EXERCISE END HERE !!!!!!!!!!!!!!!!!!!!!!!
