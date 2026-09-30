@@ -16,10 +16,18 @@
 
 #here is the main twist
 
-a = 3
-b = 3
-print(a is b)
-print(a = b)
+# a = 3
+# b = 3
+# print(a is b)
+# print(a = b)
 
 
-output both are true cuz 3 constant hai and immutable hai jisse python inko ik hi memory location pe locate krega
+# output both are true cuz 3 constant hai and immutable hai jisse python inko ik hi memory location pe locate krega
+
+
+
+a = "himanshu"
+b = "himanshu"
+
+print( a is b)
+print(a == b)
