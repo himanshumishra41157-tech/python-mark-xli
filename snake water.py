@@ -6,6 +6,9 @@ computer = random.choice(choice)
 try:
           user_input = input("enter snake , water , gun : ").lower()
 
+          if user_input not in choice:
+              raise ValueError("invalid input")
+
 
           if user_input not in choice:
              print("invalid input")
