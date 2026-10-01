@@ -1,6 +1,6 @@
 import random
 
-choice = ["snake" , "water" , "gun"].lowe()
+choice = ["snake" , "water" , "gun"].lower()
 computer = random.choice(choice)
 
 user_input = input("enter snake , water , gun : ")
