@@ -23,7 +23,7 @@ try:
           else:
              print("result is computer wins")
 except ValueError:
-    print
+    print("invalid input")
 
 
 
