@@ -3,7 +3,6 @@ import random
 choice = ["snake" , "water" , "gun"]
 computer = random.choice(choice)
 
-try:
           user_input = input("enter snake , water , gun : ").lower()
 
           if user_input not in ["snake" , "water" , "gun"]:
