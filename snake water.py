@@ -8,10 +8,6 @@ try:
 
           if user_input not in choice:
               raise ValueError("invalid input")
-
-
-          if user_input not in choice:
-             print("invalid input")
           else:
              print("valid input", computer)
           if user_input == computer:
