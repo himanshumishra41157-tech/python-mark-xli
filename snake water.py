@@ -15,3 +15,20 @@ elif user_input == "gun" and computer == "snake":
 
 else:
     print("computer wins")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #this code is written by himanshu mishra the father of code
