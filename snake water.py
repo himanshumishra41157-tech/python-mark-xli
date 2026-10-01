@@ -8,8 +8,8 @@ user_input = input("enter snake , water , gun : ").lower()
 
 if user_input not in choice:
     print("invalid input")
-if user_input in choice:
-        print("valid input")
+else:
+        print("valid input", computer)
 if user_input == computer:
         print("result is tie")
 elif user_input == "snake" and computer == "water":
