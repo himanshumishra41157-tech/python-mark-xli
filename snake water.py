@@ -2,22 +2,20 @@ import random
 
 choice = ["snake" , "water" , "gun"]
 computer = random.choice(choice)
-
-          user_input = input("enter snake , water , gun : ").lower()
-
-          if user_input not in ["snake" , "water" , "gun"]:
+user_input = input("enter snake , water , gun : ").lower()
+if user_input not in ["snake" , "water" , "gun"]:
               raise ValueError("invalid input")
           
-          if user_input == computer:
+if user_input == computer:
              print("result is tie")
-          elif user_input == "snake" and computer == "water":
+elif user_input == "snake" and computer == "water":
              print("result is user wins")
-          elif user_input == "water" and computer == "gun":
+elif user_input == "water" and computer == "gun":
              print("result is user wins")
-          elif user_input == "gun" and computer == "snake":
+elif user_input == "gun" and computer == "snake":
              print("result is user wins")
 
-          else:
+else:
              print("result is computer wins")
 
 
