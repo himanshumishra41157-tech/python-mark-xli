@@ -1,11 +1,9 @@
 import random
 
 choice = ["snake" , "water" , "gun"]
-choice.lower()
 computer = random.choice(choice)
 
-user_input = input("enter snake , water , gun : ")
-
+user_input = input("enter snake , water , gun : ").lower()
 if user_input == computer:
     print("draw")
 elif user_input == "snake" and computer == "water":
