@@ -11,16 +11,16 @@ if user_input not in choice:
 if user_input in choice:
         print("valid input")
 if user_input == computer:
-        print("draw")
+        print("result is tie")
 elif user_input == "snake" and computer == "water":
-        print("user wins")
+        print("result is user wins")
 elif user_input == "water" and computer == "gun":
-        print("user wins")
+        print("result is user wins")
 elif user_input == "gun" and computer == "snake":
-        print("user wins")
+        print("result is user wins")
 
 else:
-        print("computer wins")
+        print("result is computer wins")
 
 
 
