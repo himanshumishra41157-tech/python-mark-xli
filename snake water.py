@@ -8,18 +8,18 @@ user_input = input("enter snake , water , gun : ").lower()
 
 if user_input not in choice:
     print("invalid input")
-    if user_input in choice:
+if user_input in choice:
         print("valid input")
-    if user_input == computer:
+if user_input == computer:
         print("draw")
-    elif user_input == "snake" and computer == "water":
+elif user_input == "snake" and computer == "water":
         print("user wins")
-    elif user_input == "water" and computer == "gun":
+elif user_input == "water" and computer == "gun":
         print("user wins")
-    elif user_input == "gun" and computer == "snake":
+elif user_input == "gun" and computer == "snake":
         print("user wins")
 
-    else:
+else:
         print("computer wins")
 
 
