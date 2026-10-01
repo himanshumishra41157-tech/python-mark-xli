@@ -25,8 +25,8 @@ try:
 
           else:
              print("result is computer wins")
-except ValueError:
-    print("invalid input")
+except ValueError as error:
+    print(error)
 
 
 
