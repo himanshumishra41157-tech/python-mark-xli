@@ -4,13 +4,13 @@ choice = ["snake" , "water" , "gun"]
 computer = random.choice(choice)
 
 try:
-user_input = input("enter snake , water , gun : ").lower()
+          user_input = input("enter snake , water , gun : ").lower()
 
 
-if user_input not in choice:
-    print("invalid input")
-else:
-        print("valid input", computer)
+          if user_input not in choice:
+             print("invalid input")
+          else:
+             print("valid input", computer)
 if user_input == computer:
         print("result is tie")
 elif user_input == "snake" and computer == "water":
