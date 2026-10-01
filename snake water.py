@@ -11,19 +11,19 @@ try:
              print("invalid input")
           else:
              print("valid input", computer)
-if user_input == computer:
-        print("result is tie")
-elif user_input == "snake" and computer == "water":
-        print("result is user wins")
-elif user_input == "water" and computer == "gun":
-        print("result is user wins")
-elif user_input == "gun" and computer == "snake":
-        print("result is user wins")
+          if user_input == computer:
+             print("result is tie")
+          elif user_input == "snake" and computer == "water":
+             print("result is user wins")
+          elif user_input == "water" and computer == "gun":
+             print("result is user wins")
+          elif user_input == "gun" and computer == "snake":
+             print("result is user wins")
 
-else:
-        print("result is computer wins")
+          else:
+             print("result is computer wins")
 except ValueError:
-print("invalid input")
+    print
 
 
 
