@@ -3,6 +3,7 @@ import random
 choice = ["snake" , "water" , "gun"]
 computer = random.choice(choice)
 
+try:
 user_input = input("enter snake , water , gun : ").lower()
 
 
@@ -21,7 +22,8 @@ elif user_input == "gun" and computer == "snake":
 
 else:
         print("result is computer wins")
-
+except ValueError:
+print("invalid input")
 
 
 
