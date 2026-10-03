@@ -13,6 +13,7 @@ class person:
     def info(self):
         print(f"{self.name} is a {self.post} and he is form {self.state}")
 a = person()
+b = person()
 
 a.name = "harsh"
 a.post = "web devloper"
