@@ -4,5 +4,9 @@ class person:
     networth = 20
 
 a = person()
+a.name = "harsh"
+a.occupation = "ca"
 
-print(a.name,a.occupation,a.networth)
+
+
+print(a.name,a.occupation)
