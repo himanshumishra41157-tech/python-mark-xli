@@ -1,3 +1,5 @@
+# Class Python mein ek blueprint/template hoti hai jiske through hum objects create karte hain. 
+# Isme attributes (data) aur methods (functions) define kiye jaate hain.
 class person:
     name = "Himanshu"
     post = "ai devloper"
