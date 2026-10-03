@@ -4,8 +4,8 @@ class person:
     networth = 20
 
 a = person()
-a.name = "harsh"
-a.occupation = "ca"
+# a.name = "harsh"
+# a.occupation = "ca"
 
 
 
