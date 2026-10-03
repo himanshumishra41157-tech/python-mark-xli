@@ -6,9 +6,13 @@ class person:
         print(f"{self.name} is a {self.occupation}")
 
 a = person()
-# a.name = "harsh"
-# a.occupation = "ca"
+b = person()
+a.name = "harsh"
+a.occupation = "ca"
+b.name = "khushi"
+b.occupation = "IT"
 a.info()
+b.info()
 
 
 
