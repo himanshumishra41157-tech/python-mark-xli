@@ -7,12 +7,14 @@ class person:
 
 a = person()
 b = person()
+c = person()
 a.name = "harsh"
 a.occupation = "ca"
 b.name = "khushi"
 b.occupation = "IT"
 a.info()
 b.info()
+c.info()
 
 
 
