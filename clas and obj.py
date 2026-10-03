@@ -14,6 +14,7 @@ class person:
         print(f"{self.name} is a {self.post} and he is form {self.state}")
 a = person()
 b = person()
+c = person()
 
 a.name = "harsh"
 a.post = "web devloper"
@@ -22,9 +23,15 @@ a.state = "Maharashtra"
 
 b.name = "khushi"
 b.post = "HR"
+
+
+
+c.name = "Himanshi"
+c.post = "ca"
 # print(a.name , a.post , a.state)
 
 
  
 a.info()
 b.info()
+c.info()
