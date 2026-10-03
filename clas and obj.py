@@ -8,7 +8,7 @@
 # Iska use class ke andar object ke attributes aur methods ko access karne ke liye hota hai.
 class person:
     name = "Himanshu"
-    post = "ai devloper"
+    post = "ai devloper"    
     state = "Madhya Pradesh" 
     def info(self):
         print(f"{self.name} is a {self.post} and he is form {self.state}")
