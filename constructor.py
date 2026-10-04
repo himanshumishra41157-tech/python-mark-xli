@@ -2,14 +2,19 @@
 #  It is mainly used to initialize the object's data members.
 
 class person:
-    def __init__(self):
+    def __init__(self , n , o):
         print("Hey i am a person")
-        #self name = name
+        self.name = n
+        self.occ = o
 
 
     def info(self):
         print("f{self.name} is a {self.occupation}")
 
 
-a = person()
-b = person()
+a = person("Harry" , "AI devloper")
+b = person("Divya" , "Web devloper")
+
+
+a.info()
+b.info()
