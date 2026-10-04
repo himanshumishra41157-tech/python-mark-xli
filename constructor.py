@@ -5,7 +5,7 @@ class person:
     def __init__(self , n , o):
         print("Hey i am a person")
         self.name = n
-        self.occ = o
+        self.occupation = o
 
 
     def info(self):
