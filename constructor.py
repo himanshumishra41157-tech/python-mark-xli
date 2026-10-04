@@ -14,6 +14,7 @@ class person:
 
 a = person("Harry" , "AI devloper")
 b = person("Divya" , "Web devloper")
+c =  person()
 
 
 a.info()
