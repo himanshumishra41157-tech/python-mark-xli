@@ -9,12 +9,12 @@ profit = 4000
 ad = 848
 
 
-railwayForm -----> Class [blueprint]
+railwayForm-----> Class [blueprint]
 
 
-himanshu ------>> himanshu ki info wala form [object] and [entity]]
-harsh ----->> harsh ki info wala form [object] and [entity]
-ravi ------>> ravi ki info wala form [object]  and [entity]]
+himanshu------>> himanshu ki info wala form [object] and [entity]]
+harsh----->> harsh ki info wala form [object] and [entity]
+ravi------>> ravi ki info wala form [object]  and [entity]]
 
 
 shubham.changename("himanshu")  # change name of shubham to himansh
