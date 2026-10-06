@@ -9,4 +9,12 @@ class MyClass:
 
     @property
     def ten_value(self):
-        retur
+        return 10* self._value
+
+
+
+    @ten_value.setter
+    def ten_value(self,new_value):
+        
+        self ._ value = 
+        return 10* self.value
