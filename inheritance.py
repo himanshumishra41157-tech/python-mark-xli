@@ -12,6 +12,11 @@ class programmer(Employee):
           print("python is a greate language")
 
 
+class Himanshu(programmer):
+     def showacc(self):
+          print("kya hai mere bhai sab badhiya hai ya nahi")
+
+
 
 
 e = Employee("Himanshu" , 200)
@@ -19,4 +24,6 @@ e.showDetails()
 e = programmer("tINA" , 4000)
 e.showDetails()
 e.showlanguage()
+e = Himanshu("Ram" , 474)
+e.showacc()
     
