@@ -80,5 +80,7 @@ s1.showexperience()
 
 #congo
 
+
+#show this is the question of inheritance
           
      
