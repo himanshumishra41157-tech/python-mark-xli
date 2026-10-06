@@ -83,4 +83,6 @@ print(s1.marks)
 s1.marks = 95
 print(s1.marks)
 
+s1.marks = 105
+
 
