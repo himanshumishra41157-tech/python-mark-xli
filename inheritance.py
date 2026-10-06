@@ -1,3 +1,5 @@
+# Inheritance ka matlab hai ek class ka doosri class ke properties aur methods ko inherit (use) karna.
+
 class  Employee:
     def __init__ (self,name,id):
         self.name = name
