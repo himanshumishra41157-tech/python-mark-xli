@@ -83,6 +83,12 @@ s1.showexperience()
 
 #show this is the question of inheritance
 
+
+
+
+
+#imp concept
+
        
 
 
