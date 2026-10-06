@@ -14,7 +14,7 @@ class MyClass:
 
 
     @ten_value.setter
-    def ten_value(self,new_value):
+    def ten_value(self,new._value):
 
         self ._value =  new_value /10
         return 10* self.value
