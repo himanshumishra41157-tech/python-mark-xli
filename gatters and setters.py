@@ -58,7 +58,7 @@ from os import name
 # Dobara marks print karo.
 
 
-
+#ye constructor se starting value ko initialize kar raha hai
 class Student:
     def __init__ (self ,  name,marks):
 
