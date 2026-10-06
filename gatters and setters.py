@@ -80,5 +80,7 @@ class Student:
 
 s1 = Student("Himanshu" , 99)
 print(s1.marks)
+s1.marks = 95
+print(s1.marks)
 
 
