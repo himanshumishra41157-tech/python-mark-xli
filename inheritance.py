@@ -28,4 +28,45 @@ e.showDetails()
 e.showlanguage()
 e = Himanshu("Ram" , 474)
 e.showacc()
-    
+
+
+
+# 🟢 Practice Question: Company Employee
+# Task
+
+# Ek Employee class banao jisme:
+
+# __init__() mein name aur salary lo.
+# Ek method showDetails() banao jo name aur salary print kare.
+
+# Phir ek Developer class banao jo Employee se inherit kare.
+
+# Developer mein ek method showLanguage() banao jo print kare:
+# Developer uses Python
+
+# Phir ek SeniorDeveloper class banao jo Developer se inherit kare.
+
+# SeniorDeveloper mein ek method showExperience() banao jo print kare:
+
+
+class Employee:
+     def __init__ (self,name,salary):
+          self._name = name
+          self.salary = salary
+
+     def showdetails(self):
+      print(f"Here is the employee name is {self._name} and the salary of the employee is {self._ssalary}")
+
+
+
+     class devloper(Employee):
+          def showLanguage(self):
+               print("Devloper uses python")
+
+     class seniordevloper(devloper):
+
+          def showexperience (self):
+               print("the devloper has 2 year of experience")
+          
+          
+     
