@@ -25,9 +25,9 @@ class Library:
 
 
 library = Library(3,["python" , 'hindi' , "sanskrit" ])
-library.showbooks
+library.showbooks()
 library.addbook("DSA")
-library.countbook
+library.countbook()
 
 
 
