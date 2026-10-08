@@ -24,7 +24,7 @@ class Library:
             print((self.nobooks))
 
 
-library = Library("3" , "Hindi" , "english")
+library = Library("3","Hindi","english")
 print(library)
 
 
