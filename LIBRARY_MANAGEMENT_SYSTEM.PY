@@ -18,8 +18,8 @@ class Library:
     def addbook(self,book1):
 
             s = int(input("how many books you wants to add:  "))
-            for s in range(1,s):
-                 book = input(f"enter the books {s}:")
+            for i in range(s):
+                 book = input(f"enter the books {i+1}:")
                  
                  self.book.append(book1)
                  self.nobooks +=1
@@ -29,7 +29,7 @@ class Library:
             print((self.nobooks))
 
 
-a = Library()
+a = Library(0,[])
 
 a.addbook()
 
