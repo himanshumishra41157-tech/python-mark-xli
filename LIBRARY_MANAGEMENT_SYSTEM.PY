@@ -5,29 +5,33 @@
 
 
 
-# class Library:
-#     def __init__ (self , no_books,books1):
-#         self.nobooks = no_books
-#         self.book = books1
+class Library:
+    def __init__ (self , no_books,books1):
+        self.nobooks = no_books
+        self.book = books1
 
 
-#     def showbooks(self):
-#             print(self.book)
+    def showbooks(self):
+            print(self.book)
 
 
-#     def addbook(self,book1):
-#             self.book.append(book1)
-#             self.nobooks +=1
+    def addbook(self,book1):
+
+            s = int(input("how many books you wants to add:  "))
+            for s in range(1,s):
+                 book = input(f"enter the books {s}:")
+                 
+                 self.book.append(book1)
+                 self.nobooks +=1
 
 
-#     def countbook(self):
-#             print((self.nobooks))
+    def countbook(self):
+            print((self.nobooks))
 
 
-# library = Library(3,["python" , 'hindi' , "sanskrit"  ])
-# library.showbooks()
-# library.addbook("DSA")
-# library.countbook()
+library = Library(3,["python" , 'hindi' , "sanskrit"  ])
+
+library.addbook()
 
 
 
@@ -43,27 +47,27 @@
 
 
 
-class Library:
-    def __init__(self):
-        self.num_of_books = 0
-        self.books = []
+# class Library:
+#     def __init__(self):
+#         self.num_of_books = 0
+#         self.books = []
 
-    def add(self):
-        s = int(input("How many books do you want to store? "))
-        for v in range(1, s + 1):
-            book = input(f"Enter book {v}: ")
-            self.num_of_books += 1
-            self.books.append(book)
+#     def add(self):
+#         s = int(input("How many books do you want to store? "))
+#         for v in range(1, s + 1):
+#             book = input(f"Enter book {v}: ")
+#             self.num_of_books += 1
+#             self.books.append(book)
 
-    def check(self):
-        if self.num_of_books == len(self.books):
-            print("Ok")
-        else:
-            print("Error")
+#     def check(self):
+#         if self.num_of_books == len(self.books):
+#             print("Ok")
+#         else:
+#             print("Error")
 
-a = Library()
-a.add()
-a.check()
-print(f"Your books: {a.books}")
+# a = Library()
+# a.add()
+# a.check()
+# print(f"Your books: {a.books}")
 
     
