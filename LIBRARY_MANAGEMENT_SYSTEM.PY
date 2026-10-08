@@ -37,4 +37,33 @@ library.countbook()
 #code is end succesfully
 
 
+
+
+
+
+
+
+class Library:
+    def __init__(self):
+        self.num_of_books = 0
+        self.books = []
+
+    def add(self):
+        s = int(input("How many books do you want to store? "))
+        for v in range(1, s + 1):
+            book = input(f"Enter book {v}: ")
+            self.num_of_books += 1
+            self.books.append(book)
+
+    def check(self):
+        if self.num_of_books == len(self.books):
+            print("Ok")
+        else:
+            print("Error")
+
+a = Library()
+a.add()
+a.check()
+print(f"Your books: {a.books}")
+
     
