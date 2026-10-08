@@ -35,7 +35,7 @@ a.addbook()
 
 
 print(f"the books you want to know {a}")
-
+a.showbooks()
 
 
 
