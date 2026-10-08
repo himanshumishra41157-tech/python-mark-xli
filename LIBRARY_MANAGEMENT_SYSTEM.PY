@@ -24,8 +24,10 @@ class Library:
             print((self.nobooks))
 
 
-library = Library("Hindi","english")
-print(library)
+library = Library(3,["python" , 'hindi' , "sanskrit" ])
+print(library.showbooks)
+print(library.addbook)
+print(library.countbook)
 
 
 
