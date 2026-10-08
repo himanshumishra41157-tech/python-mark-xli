@@ -5,29 +5,29 @@
 
 
 
-class Library:
-    def __init__ (self , no_books,books1):
-        self.nobooks = no_books
-        self.book = books1
+# class Library:
+#     def __init__ (self , no_books,books1):
+#         self.nobooks = no_books
+#         self.book = books1
 
 
-    def showbooks(self):
-            print(self.book)
+#     def showbooks(self):
+#             print(self.book)
 
 
-    def addbook(self,book1):
-            self.book.append(book1)
-            self.nobooks +=1
+#     def addbook(self,book1):
+#             self.book.append(book1)
+#             self.nobooks +=1
 
 
-    def countbook(self):
-            print((self.nobooks))
+#     def countbook(self):
+#             print((self.nobooks))
 
 
-library = Library(3,["python" , 'hindi' , "sanskrit"  ])
-library.showbooks()
-library.addbook("DSA")
-library.countbook()
+# library = Library(3,["python" , 'hindi' , "sanskrit"  ])
+# library.showbooks()
+# library.addbook("DSA")
+# library.countbook()
 
 
 
