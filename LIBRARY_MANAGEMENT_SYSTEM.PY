@@ -29,9 +29,9 @@ class Library:
             print((self.nobooks))
 
 
-library = Library(3,["python" , 'hindi' , "sanskrit"  ])
+a = Library()
 
-library.addbook()
+a.addbook()
 
 
 
