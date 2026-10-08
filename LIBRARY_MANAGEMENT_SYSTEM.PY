@@ -6,6 +6,27 @@
 
 
 class Library:
-    def __init__ (self ,no_books,books1):
-        self.nobooks = nobooks
-        self.book = books
+    def __init__ (self , no_books,books1):
+        self.nobooks = no_books
+        self.book = books1
+
+
+    def showbooks(self):
+            print(self.book)
+
+
+    def addbook(self,book1):
+            self.book.append(book1)
+            self.nobooks +1
+
+
+    def countbook(self,no_books):
+            print((self.nobooks))
+
+
+library = Library("3" , "Hindi" , "english" , "sanskrit" , "etc")
+print(library)
+
+
+
+    
