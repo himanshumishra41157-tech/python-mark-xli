@@ -20,7 +20,7 @@ class Library:
             self.nobooks +=1
 
 
-    def countbook(self,no_books):
+    def countbook(self):
             print((self.nobooks))
 
 
