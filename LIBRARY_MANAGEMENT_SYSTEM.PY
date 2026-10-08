@@ -17,7 +17,7 @@ class Library:
 
     def addbook(self,book1):
             self.book.append(book1)
-            self.nobooks +1
+            self.nobooks +=1
 
 
     def countbook(self,no_books):
@@ -25,7 +25,7 @@ class Library:
 
 
 library = Library(3,["python" , 'hindi' , "sanskrit" ])
-print(library.showbooks)
+library.showbooks
 print(library.addbook("DSA"))
 print(library.countbook)
 
