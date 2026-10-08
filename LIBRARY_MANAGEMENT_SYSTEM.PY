@@ -15,13 +15,13 @@ class Library:
             print(self.book)
 
 
-    def addbook(self,book1):
+    def addbook(self):
 
             s = int(input("how many books you wants to add:  "))
             for i in range(s):
                  book = input(f"enter the books {i+1}:")
                  
-                 self.book.append(book1)
+                 self.book.append(book)
                  self.nobooks +=1
 
 
