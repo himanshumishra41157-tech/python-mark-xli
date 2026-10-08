@@ -34,7 +34,7 @@ a = Library(0,[])
 a.addbook()
 
 
-print(f"the books you want to enter {s} and {a}")
+print(f"the books you want to know {a}")
 
 
 
