@@ -12,7 +12,7 @@ class math:
 
 
 
-a = Math(5)
+a = msath(5)
 print(a.num)
 a.addtonum(6)
 print(a.num)
