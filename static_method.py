@@ -3,4 +3,5 @@ class math:
         self.num = num
 
     def addtonum(self , n):
+        self.num = self.num + 1
         
