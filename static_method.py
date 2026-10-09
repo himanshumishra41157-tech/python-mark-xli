@@ -3,7 +3,7 @@ class math:
         self.num = num
 
     def addtonum(self , n):
-        self.num = self.num + 1
+        self.num = self.num + n
 
 
     @staticmethod
@@ -12,7 +12,7 @@ class math:
 
 
 
-a = msath(5)
+a = math(5)
 print(a.num)
 a.addtonum(6)
 print(a.num)
